@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background:hsl(0, 0%, 95%);
+}
+#main{
+    max-width: 960px;
+    margin: auto;
+    width: 60%;
+    padding: 2rem;
+    Font-size: 15px;
+    font-family:'Lexend Deca', sans-serif;
+    margin-top: 15px;
+}
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700px;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+p{
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: 400px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 30px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+.sedan{
+    background: hsl(31, 77%, 52%);
+    padding: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: start;
+    width: 95%;
+}
+.sedan img{
+    margin-top: 3%;
+}
+.suv{
+    background:hsl(184, 100%, 22%);
+    padding: 40px;
+    text-align: star;
+    width: 95%;
+}
+.suv img{
+    margin-top: 2%;
+}
+.luxury{
+    background: hsl(179, 100%, 13%);
+    padding: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: start;
+    width:95% ;
+}
+.luxury img{
+    margin-top: 2%;
+}
+.sedan a {
+    background:hsl(0, 0%, 95%);
+    padding: 10px 25px;
+    text-decoration:none;
+    border-radius: 20px;
+    display: inline-block;
+    color:hsl(31, 77%, 52%);
+    margin-top: 3%;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+.sedan a:hover{
+    color:  grey;
+}
+.suv a {
+    background:hsl(0, 0%, 95%);
+    padding: 10px 25px;
+    text-decoration:none;
+    border-radius: 20px;
+    display: inline-block;
+    color:hsl(184, 100%, 22%);
+    margin-top: 3%;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+.suv a:hover{
+    color: grey;
+}
+ .luxury a{
+    background:hsl(0, 0%, 95%);
+    padding: 10px 25px;
+    text-decoration:none;
+    border-radius: 20px;
+    display: inline-block;
+    color:hsl(179, 100%, 13%);
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-weight: 500;
+ } 
+ .luxury a:hover{
+    color: grey;
+ } 
+
+ @media screen and (min-width:47.5rem){
+    #main{
+        margin: auto;
+        display: flex;
+        width: 60%;
+        padding: 2rem;
+        Font-size: 15px;
+        margin-top: 7%;
+        margin-bottom: 5%;
+    }
+    .sedan{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        padding: 40px;
+        width: 116%;
+    }
+    .sedan p{
+        width: 93%;
+    }
+    .sedan a{
+        margin-top:25%;
+    }
+    .suv{
+        padding: 2rem;
+        width: 100%;
+    }
+    .suv a{
+        margin-top: 38%;
+    }
+    .luxury{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        padding: 2rem;
+        width:110%;
+        text-align:start;
+    }
+    .luxury a{
+        margin-top:33% ;    
+    }
+    
+    h2{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .a{
+        display: inline-block;
+        margin-top: 8%;
+    }
+    img{
+        margin-top: 10%;
+    }
+ }
+    
+ 
+
+
+
